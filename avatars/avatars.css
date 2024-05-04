@@ -27,7 +27,7 @@
 }
 
 img {
-  display: block; /* 문제 */
+  display: block;
   border-radius: 50%;
   width: 64px;
   height: 64px;
@@ -59,7 +59,7 @@ img {
   .group {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center; /*가로 중앙 정렬*/
+    justify-content: center; /* 가로 중앙 정렬 */
     align-items: center; /* 세로 중앙 정렬 */
     max-width: 800px; /* 최대 너비 */
     min-height: 500px; /* 최소 높이 */
