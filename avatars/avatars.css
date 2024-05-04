@@ -2,15 +2,9 @@
   box-sizing: border-box;
 }
 
-.main, .title {
+.title, .group {
   border-radius: 5px;
   border: 1px solid #DBDBDB;
-}
-
-.main {
-  width: 800px;
-  height: 500px;
-  /* display: flow-root; */
 }
 
 .title {
@@ -19,15 +13,17 @@
   margin-bottom: 10px;
 }
 
-/* 상하, 좌우 여백 */
-section {
-  margin: 166px 231px;
+.group {
+  width: 800px;
+  height: 500px;
 }
 
 .avatar {
   position: relative;
   float: left; /* 이미지와 상태 나란히 배치 */
   margin: 10px;
+  top: 166px; /* 계산해서 중앙 배치 */
+  left: 232px;
 }
 
 img {
@@ -55,12 +51,6 @@ img {
   background-color: #DBDBDB; /* 오프라인일 때 */
 }
 
-.boy-group {
-  clear: both;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
+.avatar:nth-child(5){
   clear: both;
 }
