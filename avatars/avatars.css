@@ -54,3 +54,24 @@ img {
 .avatar:nth-child(5){
   clear: both;
 }
+
+@supports (display: flex) {
+  .group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /*가로 중앙 정렬*/
+    align-items: center; /* 세로 중앙 정렬 */
+    max-width: 800px; /* 최대 너비 */
+    min-height: 500px; /* 최소 높이 */
+    width: 100%;
+    height: auto;
+    padding: 190px;
+  }
+  .avatar {
+    top: 0px;
+    left: 0px;
+  }
+  .avatar:nth-child(n+5) {
+    order: -1;
+  }
+}
