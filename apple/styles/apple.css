@@ -20,9 +20,6 @@
   background-position: center;
   background-size: cover;
 
-  /* TODO: 이거봐봡1!!!!!!!!!!!!!!!!!!!!!! */
-  /* background-size: cover contain; */
-
 
   background-repeat: no-repeat;
   gap: var(--small-spacing); /* 12px - 카드 제목, 부제목, 버튼(링크)간 여백(gap) */
@@ -66,13 +63,20 @@
 
   .more-item {
     color: var(--white);
+    background-color: var(--blue-400);
+  }
+  .more-item:hover {
     background-color: var(--blue-200);
   }
 
   .price-item {
-    color: var(--blue-200);
+    color: var(--blue-400);
     background-color: transparent;
-    box-shadow: 0 0 0 1px var(--blue-200);
+    box-shadow: 0 0 0 1px var(--blue-400);
+  }
+  .price-item:hover {
+    color: var(--white);
+    background-color: var(--blue-400);
   }
 }
 
@@ -85,11 +89,18 @@
     color: var(--white);
     background-color: var(--black);
   }
+  .more-item:hover {
+    background-color: #272729;
+  }
 
   .price-item {
     color: var(--black);
     background-color: transparent;
     box-shadow: 0 0 0 1px var(--black);
+  }
+  .price-item:hover {
+    color: var(--white);
+    background-color: var(--black);
   }
 }
 
@@ -139,15 +150,7 @@
 
 /* 미디어쿼리 */
 @media (min-width: 1024px) {
-
-  .cols-1 {
-    grid-column: span 1;
-  }
-
-  .cols-2 {
-    grid-column: span 2;
-  }
-
+  
   /* 가로 1024px 이상: grid 레이아웃 변경 */
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -172,4 +175,39 @@
     url(/products/iphone15_pro_wide_2x.jpeg) 2x
   );
   }
+
+  .card-container {
+    padding-top: var(--extra-large-spacing); /* 60px - Large Screen 상단 여백 */
+
+    br {
+      display: none;
+    }
+
+    .card-title {
+      font-size: var(--extra-large-text); /* 40px - Large Screen 제목 글자 크기 */
+    }
+
+    .card-description {
+      font-size: var(--medium-text); /* 21px - Large Screen 부제목 글자 크기 */
+    }
+
+    .card-link-group .link-item {
+      font-size: var(--x-small-text); /* 14px - Large Screen 버튼(링크) 글자 크기 */
+    }
+
+
+  }
+
+  
+
+  .cols-1 {
+    grid-column: span 1;
+  }
+
+  .cols-2 {
+    grid-column: span 2;
+  }
+
+
+
 }

@@ -14,19 +14,19 @@
 
   /* Text Size */
   --xx-small-text: 0.75rem; 
-  --x-small-text: 0.875rem; /* 14px - Large Screen 버튼(링크) 글자 크기 */ 
+  --x-small-text: 0.875rem;  
   --small-text: 1.0625rem; 
   --base-text: 1.1875rem; 
-  --medium-text: 1.3125rem; /* 21px - Large Screen 부제목 글자 크기 */
+  --medium-text: 1.3125rem; 
   --large-text: 2rem; 
-  --extra-large-text: 2.5rem; /* 40px - Large Screen 제목 글자 크기 */
+  --extra-large-text: 2.5rem; 
 
   /* Spacing */
   --x-small-spacing: 0.5rem; 
   --small-spacing: 0.75rem; 
   --base-spacing: 1rem; 
   --large-spacing: 2.5rem; 
-  --extra-large-spacing: 3.75rem; /* 60px - Large Screen 상단 여백 */
+  --extra-large-spacing: 3.75rem;
   
   --line-normal: 1.5; 
 }
