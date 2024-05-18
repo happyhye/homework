@@ -111,44 +111,44 @@
 /* 카드 배경 이미지 설정 */
 .card-container:nth-of-type(1) {
   background-image: image-set(
-    url(/products/ipad_pro.jpeg) 1x,
-    url(/products/ipad_pro_2x.jpeg) 2x
+    url(./products/ipad_pro.jpeg) 1x,
+    url(./products/ipad_pro_2x.jpeg) 2x
   );
 }
 .card-container:nth-of-type(2) {
   background-image: image-set(
-    url(/products/ipad_air.jpeg) 1x,
-    url(/products/ipad_air_2x.jpeg) 2x
+    url(./products/ipad_air.jpeg) 1x,
+    url(./products/ipad_air_2x.jpeg) 2x
   );
 }
 .card-container:nth-of-type(3) {
   background-image: image-set(
-    url(/products/iphone15_pro.jpeg) 1x,
-    url(/products/iphone15_pro_2x.jpeg) 2x
+    url(./products/iphone15_pro.jpeg) 1x,
+    url(./products/iphone15_pro_2x.jpeg) 2x
   );
 }
 .card-container:nth-of-type(4) {
   background-image: image-set(
-    url(/products/iphone15.jpeg) 1x,
-    url(/products/iphone15_2x.jpeg) 2x
+    url(./products/iphone15.jpeg) 1x,
+    url(./products/iphone15_2x.jpeg) 2x
   );
 }
 .card-container:nth-of-type(5) {
   background-image: image-set(
-    url(/products/apple_watch.jpeg) 1x,
-    url(/products/apple_watch_2x.jpeg) 2x
+    url(./products/apple_watch.jpeg) 1x,
+    url(./products/apple_watch_2x.jpeg) 2x
   );
 }
 .card-container:nth-of-type(6) {
   background-image: image-set(
-    url(/products/macbook_air.jpeg) 1x,
-    url(/products/macbook_air_2x.jpeg) 2x
+    url(./products/macbook_air.jpeg) 1x,
+    url(./products/macbook_air_2x.jpeg) 2x
   );
 }
 .card-container:nth-of-type(7) {
   background-image: image-set(
-    url(/products/airpods_pro.jpeg) 1x,
-    url(/products/airpods_pro_2x.jpeg) 2x
+    url(./products/airpods_pro.jpeg) 1x,
+    url(./products/airpods_pro_2x.jpeg) 2x
   );
 }
 
@@ -171,20 +171,20 @@
   /* 가로 1024px 이상: 셀 병합한 곳에 wide한 이미지로 변경 */
   .card-container:nth-of-type(1) {
     background-image: image-set(
-    url(/products/ipad_pro_wide.jpeg) 1x,
-    url(/products/ipad_pro_wide_2x.jpeg) 2x
+    url(./products/ipad_pro_wide.jpeg) 1x,
+    url(./products/ipad_pro_wide_2x.jpeg) 2x
   );
   }
   .card-container:nth-of-type(2) {
     background-image: image-set(
-    url(/products/ipad_air_wide.jpeg) 1x,
-    url(/products/ipad_air_wide_2x.jpeg) 2x
+    url(./products/ipad_air_wide.jpeg) 1x,
+    url(./products/ipad_air_wide_2x.jpeg) 2x
   );
   }
   .card-container:nth-of-type(3) {
     background-image: image-set(
-    url(/products/iphone15_pro_wide.jpeg) 1x,
-    url(/products/iphone15_pro_wide_2x.jpeg) 2x
+    url(./products/iphone15_pro_wide.jpeg) 1x,
+    url(./products/iphone15_pro_wide_2x.jpeg) 2x
   );
   }
 
