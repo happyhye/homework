@@ -13,6 +13,7 @@
 
 ## 구현 결과
 - gif 로딩을 기다려주세요.
+
 ![구현 결과](https://github.com/happyhye/homework/assets/167636384/da1b46fd-1128-420b-a1e6-4f614ec2f9c3)
 
 ## 개요
