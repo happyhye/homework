@@ -11,11 +11,9 @@
 
   (Small Screen - 1024px 이하 / Large Screen - 1024px 이상)
 
-## 구현 결과 (gif 로딩 중...)
-![구현 결과](https://github.com/happyhye/homework/assets/167636384/bf5cd737-e909-401b-baf3-2ca45b64c9f1)
-- 이미지 용량이 커서 줄이다 보니 UI가 움직이는 것처럼 나왔는데 실제로는 정상적으로 동작합니다.
-
-  (나중에 이미지만 수정하도록 하겠습니다.)
+## 구현 결과
+- gif 로딩을 기다려주세요.
+![구현 결과](https://github.com/happyhye/homework/assets/167636384/da1b46fd-1128-420b-a1e6-4f614ec2f9c3)
 
 ## 개요
 - 사용 언어: HTML, CSS
